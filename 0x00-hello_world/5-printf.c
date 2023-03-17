@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/*
+/**
  * main - A programm that prints a line using printf function
  *
  * Return: (0) (Success)
-*/
+ */
 
 int main(void)
 {
