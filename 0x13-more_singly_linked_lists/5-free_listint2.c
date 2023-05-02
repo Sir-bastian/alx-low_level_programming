@@ -5,6 +5,7 @@
 /**
 * free_listint2 - function that frees a linked list
 *@head: listint_t to be freed
+*Description: Sets the head to NULL
 */
 
 void free_listint2(listint_t **head)
@@ -18,7 +19,7 @@ void free_listint2(listint_t **head)
 
 	while (*head)
 	{
-		temp = (*head);
+
 		temp = (*head)->next;
 		free(*head);
 		*head = temp;
