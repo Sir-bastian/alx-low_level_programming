@@ -1,5 +1,5 @@
 #include<stdio.h>
-#icnlude<stdlib.h>
+#include<stdlib.h>
 #include"main.h"
 
 /**
