@@ -13,7 +13,7 @@ size_t dlistint_len(const dlistint_t *h)
 {
 	ssize_t nodes = 0;
 
-	if (h != NULL)
+	if (!h)
 	{
 		return (0);
 	}
